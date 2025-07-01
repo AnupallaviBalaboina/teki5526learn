@@ -1,0 +1,41 @@
+** start of index.html **
+
+<!doctype html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'/>
+    <title>Travel Agency Page</title>
+     <meta name='description' content='It a Travel Agency Page'/>
+  </head>
+  <body>
+    <div>
+      <h1> Travel destinations</h1>
+      <p> Register to this page you will get 50% discount on your first booking</p>
+      <h2>Packages</h2>
+      <p>Bali Bliss: 5-Day Romantic Getaway Destination: Bali, Indonesia
+Duration: 5 Days / 4 Nights
+Ideal For: Couples, Honeymooners, or Relaxation Seekers
+Travel Style: Semi-Luxury | Culture | Nature | Spa </p>
+<ul>
+  <li><a href="https://www.freecodecamp.org/learn" target="_blank">Group Travels</a></li>
+  <li><a href="https://www.freecodecamp.org/learn" target="_blank">Private Tours</a></li>
+  </ul>
+  <h2>Top Itineraries</h2>
+      </body>  
+      <figure>
+        <a href="https://www.freecodecamp.org/learn" target="_blank"> <img src="https://cdn.freecodecamp.org/curriculum/labs/colosseo.jpg" alt="colosseo"></a>
+        <figcaption>colosseo</figcaption>
+        </figure>
+        <figure>
+ <a href="https://www.freecodecamp.org/learn" target="_blank"><img src="https://cdn.freecodecamp.org/curriculum/labs/alps.jpg" alt="alps"></a>
+ <figcaption>alps</figcaption>
+          </figure>
+          <figure>
+             <a href="https://www.freecodecamp.org/learn" target="_blank"><img src="https://cdn.freecodecamp.org/curriculum/labs/sea.jpg" alt="sea"></a>
+             <figcaption>sea</figcaption
+            </figure>
+</html>
+
+
+** end of index.html **
+
