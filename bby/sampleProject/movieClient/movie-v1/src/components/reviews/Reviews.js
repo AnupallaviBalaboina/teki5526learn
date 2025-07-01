@@ -17,10 +17,14 @@ const Reviews = ({getMovieData,movie,reviews,setReviews}) => {
         e.preventDefault();
 
         const rev = revText.current;
+          if (!rev?.value.trim()) {
+    alert("Review can't be empty.");
+    return;
+  }
 
         try{
             const response = await api.post("/api/v1/reviews",{reviewBody:rev.value,imdbId:movieId});
-            const updatedReviews = [...reviews,{body:rev.value}];
+            const updatedReviews = [...(reviews || []), {body:rev.value}];
             rev.value = "";
             setReviews(updatedReviews);
         }
