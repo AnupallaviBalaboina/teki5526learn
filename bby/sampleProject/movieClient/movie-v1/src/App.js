@@ -33,7 +33,9 @@ function App() {
     
     } 
     catch (error) {
-      
+      console.error("Error fetching movie data:", error);
+  setMovie(null);
+  setReviews([]);
     }
 
   }
